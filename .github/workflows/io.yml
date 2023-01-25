@@ -9,7 +9,5 @@ jobs:
     uses: io-workflows/io-workflows/.github/workflows/devsecops.yml@main
     with:
       verbose-option: 'SilentlyContinue'
-      project-language: 'Java'
-#       project-name: 'MyProject'
-#       branch-name: 'MyBranch'
+      project-language: 'Java,JavaScript'
     secrets: inherit
